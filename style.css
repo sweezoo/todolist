@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    background-image: url("./sky.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    background: rgb(109, 109, 176);
+    text-align: center;
+    margin: 10rem;
+    padding: 50px;
+    border-radius: 40%;
+}
+
+.intro{
+    margin: 20px;
+    font-weight: bold;
+}
+
+.intro h2{
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+}
+
+.helptxt p{
+    font-weight: 500;
+}
+
+#one{
+    color: rgb(243, 189, 88);
+}
+
+#two{
+    color: rgb(19, 198, 19);
+}
+
+#three{
+    color: rgb(168, 168, 239);
+    margin-bottom: 50px;
+}
+
+#enter{
+    border: none;
+    padding: .2rem;
+    border-radius: 10px;
+    background-color: rgb(168, 168, 239);
+    color: #fff;
+    margin-left: 10px;
+}
+
+#enter:hover{
+    background-color: rgb(146, 146, 239);
+}
+
+input{
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    min-width: 65%;
+}
+
+ul{
+    text-align: left;
+    margin-top: 40px;
+}
+
+li{
+    list-style: none;
+    padding: 10px 20px;
+    text-transform: capitalize;
+    color: #fff;
+    font-weight: 600;
+    border: 2px solid rgb(168, 168, 239);
+    border-radius: 10px;
+    margin-top: 10px;
+    transition: all 0.75s ease;
+}
+
+li:hover{
+    background: rgb(146, 146, 239);
+}
+
+li > button{
+    font-weight: normal;
+    background: none;
+    border: none;
+    float: right;
+    color: rgb(101, 101, 146);
+    font-weight: 800;
+    margin-right: 0;
+}
+
+.done{
+    background: rgba(74, 210, 74, 0.873) !important;
+    color: rgb(11, 78, 11);
+}
+
+.delete{
+    display: none;
+}
